@@ -1,0 +1,3 @@
+# Insecure Route Parameter Handling in Express.js
+
+This repository demonstrates a common vulnerability in Express.js applications: insecure handling of route parameters.  Specifically, the example shows a route that fetches user data based on a user ID passed as a route parameter.  The initial code lacks proper validation and error handling, leaving it vulnerable to issues like 404 errors on invalid IDs and potential data leaks.
